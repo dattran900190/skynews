@@ -1,0 +1,14 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Trang danh sách
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <h1>Danh sách</h1>
+ <div>
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, est ea? Tempore, deleniti nihil? Odio ullam dignissimos laboriosam, 
+ aspernatur cum expedita quos tenetur nihil exercitationem sint libero, vitae atque similique.
+ </div>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

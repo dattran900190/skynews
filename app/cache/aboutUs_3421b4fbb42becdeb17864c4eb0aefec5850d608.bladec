@@ -1,0 +1,22 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Giới thiệu
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+<div class="container my-5">
+ <h1 class="text-center">Giới thiệu chung</h1>
+
+ <br>
+ <div class="main-aboutUs">
+
+ <img src="https://caodang.fpt.edu.vn/wp-content/uploads/About_VN_20200923_01.jpg" width="1000" alt="">
+ <img src="https://caodang.fpt.edu.vn/wp-content/uploads/About_VN_20200923_03.jpg" width="1000" alt="">
+ <img src="https://caodang.fpt.edu.vn/wp-content/uploads/About_VN_20200923_05-scaled.jpg" width="1000" alt="">
+ <img src="https://caodang.fpt.edu.vn/wp-content/uploads/About_VN_20200923_07.jpg" width="1000" alt="">
+ </div>
+</div>
+ </div>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

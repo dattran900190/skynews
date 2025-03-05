@@ -1,0 +1,51 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Liên hệ
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container my-5">
+ <h1 class="text-center">Liên hệ</h1>
+
+ <br>
+ <div class="main-contact">
+ <h4>Cơ sở đào tạo tại Hà Nội</h4>
+ Địa chỉ: Tòa nhà FPT Polytechnic, phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội
+ <br>
+ <h6>Liên hệ Văn phòng tuyển sinh:</h6>
+ Tư vấn 1: (024) 8582 0808
+ Tư vấn 2: (024) 6684 0713
+ Tư vấn 3: 0988 866 377
+ Email : caodangfpt.hn@fpt.edu.vn
+ Liên hệ các phòng ban khác:
+ <br>
+ <h6>Phòng Dịch vụ sinh viên:</h6>
+ Tel: 1900 99 66 86
+ Email: dvsvpoly.hn@poly.edu.vn
+ <br>
+ <h6>Phòng Giáo vụ Đào tạo:</h6>
+ Tel: (024) 7300 1955 – Nhánh số 2 hoặc (024) 6259 4013
+ Email: daotaopoly.hn@fe.edu.vn
+ <br>
+ <h6>Phòng Hành chính – Kế toán:</h6>
+ (024) 6327 6306
+ (024) 6682 2713
+ (024) 6327 6305
+ Email: hanhchinhpoly.hn@poly.edu.vn
+ Phòng Quan hệ doanh nghiệp:
+ Tel: 024 6327 6803
+ Email: qhdn.poly@fpt.edu.vn
+ <br>
+ <h6>Phòng Công tác sinh viên:</h6>
+ Tel: (024) 6260 4013
+ Email: ctsvpoly.hn@fe.edu.vn
+ <br>
+ <br>
+
+ <img src="https://caodang.fpt.edu.vn/wp-content/uploads/FPT_Polytechnic_Hanoi.jpg" width="500px" alt="">
+ </div>
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

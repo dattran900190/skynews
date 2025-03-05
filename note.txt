@@ -1,0 +1,10 @@
+Sinh viên cần hoàn thiện các chức năng của admin (quản trị) và user (khách hàng)
+Admin:
+- Đăng nhập, đăng xuất, đăng ký
+- CRUD danh mục
+- CRUD sản phẩm
+- CRUD user
+User:
+- Thực hiện đổ dữ liệu vào trang chủ
+- Đổ dữ liệu và trang danh sách theo danh mục
+- Đổ dữ liệu cho trang chi tiết

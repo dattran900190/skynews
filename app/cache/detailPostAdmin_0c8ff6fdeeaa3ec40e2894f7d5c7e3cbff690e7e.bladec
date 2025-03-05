@@ -1,0 +1,42 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Admin
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container">
+ <div class="page-inner">
+ <h1 class="text-center">Chi tiết bài viết</h1>
+ <div class="card card-round">
+ <div class="card-body">
+ <h2 class="card-title">Bóng đá Việt Nam: Những bước tiến mới</h2>
+ <div class="d-flex justify-content-between">
+ <p><strong>Tác giả:</strong> Nguyễn Văn A</p>
+ <p><strong>Ngày đăng:</strong> 07/02/2025</p>
+ <p><strong>Danh mục:</strong> Thể thao</p>
+ </div>
+ <div class="text-center">
+ <img src="https://images2.thanhnien.vn/528068263637045248/2025/1/2/z6191153094410d7daf461302ee05e7db3fddd2c2914cf-17358475924841601201155.jpg" width="600" class="img-fluid rounded" alt="Hình ảnh bài viết">
+ </div>
+ <hr>
+ <div class="article-content mt-3">
+ <p>Trận chung kết lượt đi trên sân Việt Trì (Phú Thọ) tối 2.1 chứng kiến thế trận hợp lý của đội tuyển Việt Nam. Thầy trò HLV Kim Sang-sik chủ động nhường thế trận cho Thái Lan, chơi phòng ngự phản công và chỉ cầm bóng 36% nhưng lại là đội có nhiều cơ hội ăn bàn hơn. Theo thống kê của chuyên trang Opta, đội tuyển Việt Nam tung ra 21 cú dứt điểm, hơn Thái Lan đến 9 lần. Xét về số lần sút trúng đích, “Những chiến binh sao vàng” cũng vượt trội so với Thái Lan: Việt Nam có 9 lần sút trúng khung thành trong khi đối thủ chỉ có 3 lần. Chính vì thế, chiến thắng 2-1 nghiêng về đội tuyển Việt Nam là điều hoàn toàn xứng đáng.
+
+ “Trận chung kết lượt đi của giải vô địch bóng đá Đông Nam Á 2024 diễn ra vô cùng hấp dẫn. Và đội tuyển Việt Nam gần như đã chạm một tay vào chiếc cúp vô địch sau khi giành chiến thắng 2-1 trước Thái Lan ngay tại sân Việt Trì”, nhà báo Gabriel Tan bày tỏ trong bài viết trên ESPN Asia.</p>
+ <p>Giải đấu V.League cũng chứng kiến sự cải thiện về chất lượng, thu hút được nhiều khán giả và nhà tài trợ...</p>
+ <p>Cùng điểm qua những cột mốc quan trọng của bóng đá Việt Nam trong thời gian qua.</p>
+ </div>
+ <hr>
+ <div class="text-center">
+ <a href="listPostAdmin" class="btn btn-primary">Quay lại danh sách</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+ 
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layoutAdmin'); } ?>

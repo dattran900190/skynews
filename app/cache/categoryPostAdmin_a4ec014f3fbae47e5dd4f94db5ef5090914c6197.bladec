@@ -1,0 +1,66 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Admin
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container">
+ <div class="page-inner">
+ <h1>Quản lý danh mục bài viết</h1>
+ <div class="card card-round">
+ <div class="card-header">
+ <div class="card-head-row card-tools-still-right">
+ <div class="card-title">Danh mục bài viết</div>
+ <div class="card-tools">
+ <a href="#" class="btn btn-sm btn-success" >Thêm danh mục</a>
+ </div>
+ </div>
+ </div>
+ <div class="card-body p-0">
+ <div class="table-responsive">
+ <!-- Projects table -->
+ <table class="table align-items-center mb-0">
+ <thead class="thead-light">
+ <tr>
+ <th scope="col" class="text-center">STT</th>
+ <th scope="col" class="text-center">Tên danh mục</th>
+ <th scope="col" class="text-center">Thao tác</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th scope="row" class="text-center">1</th>
+ <td class="text-center">Thể thao</td>
+ <td class="text-center">
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row" class="text-center">2</th>
+ <td class="text-center">Bóng đá</td>
+ <td class="text-center">
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row" class="text-center">3</th>
+ <td class="text-center">Thời sự</td>
+ <td class="text-center">
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ 
+ </div>
+ </div>
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layoutAdmin'); } ?>

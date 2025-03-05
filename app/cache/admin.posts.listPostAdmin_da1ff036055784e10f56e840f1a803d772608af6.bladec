@@ -1,0 +1,81 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+Quản lý bài viết
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container">
+ <div class="page-inner">
+ <h1>Quản lý bài viết</h1>
+ <div class="card card-round">
+ <div class="card-header">
+ <div class="card-head-row card-tools-still-right">
+ <div class="card-title">Danh sách bài viết</div>
+ <div class="card-tools">
+ <a href="<?php echo \htmlentities(APP_URL . 'admin/listPostAdmin/add'??'', ENT_QUOTES, 'UTF-8', false); ?>" class="btn btn-sm btn-success">Thêm bài
+ viết</a>
+ </div>
+ </div>
+ </div>
+ <div class="card-body p-0">
+ <div class="table-responsive">
+ <!-- Bảng danh sách bài viết -->
+ <table class="table align-items-center mb-0">
+ <thead class="thead-light">
+ <tr>
+ <th scope="col">STT</th>
+ <th scope="col" class="text-start">Tiêu đề</th>
+ <th scope="col" class="text-center">Image</th>
+ <th scope="col" class="text-center">Mô tả</th>
+ <th scope="col" class="text-center">Danh mục</th>
+ <th scope="col" class="text-center">Ngày đăng</th>
+ <th scope="col" class="text-center">Ngày cập nhật</th>
+ <th scope="col" class="text-center">Trạng thái</th>
+ <th scope="col" class="text-end">Thao tác</th>
+ </tr>
+ </thead>
+ <tbody>
+ <?php $__currentLoopData = $posts; $this->addLoop($__currentLoopData);$this->getFirstLoop();
+ foreach($__currentLoopData as $post): $loop = $this->incrementLoopIndices();  ?>
+ <tr>
+ <th scope="row"><?php echo \htmlentities($post->id??'', ENT_QUOTES, 'UTF-8', false); ?></th>
+ <td class="text-start"><?php echo \htmlentities($post->title??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td class="text-start">
+ <img src="<?php echo \htmlentities(APP_URL . $post->image??'', ENT_QUOTES, 'UTF-8', false); ?>" width="100" alt="">
+ </td>
+ <td class="text-center"><?php echo \htmlentities($post->description??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td class="text-center"><?php echo \htmlentities($post->cagetory_name??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td class="text-center"><?php echo \htmlentities(date('d/m/Y', strtotime($post->creates_at))??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td class="text-center"><?php echo \htmlentities(date('d/m/Y', strtotime($post->update_at))??'', ENT_QUOTES, 'UTF-8', false); ?></td>
+ <td class="text-center">
+ <?php if($post->status == 'active'): ?>
+ <span class="badge bg-success">Active</span>
+ <?php else: ?>
+ <span class="badge bg-danger">Inactive</span>
+ <?php endif; ?>
+ </td>
+ <td class="text-end">
+ <?php /* <a href="detailPostAdmin" class="btn btn-sm btn-primary">Xem</a> */ ?>
+ <a href="<?php echo \htmlentities(APP_URL . 'admin/listPostAdmin/edit/' . $post->id??'', ENT_QUOTES, 'UTF-8', false); ?>" class="btn btn-sm btn-info">Sửa</a>
+ 
+ <form action="<?php echo \htmlentities(APP_URL . 'admin/listPostAdmin/delete/' . $post->id??'', ENT_QUOTES, 'UTF-8', false); ?>" method="post" class="d-inline ">
+ <button onclick="return confirm('Bạn có muốn xoá không?')" type="submit" class="btn btn-danger btn-sm">
+ Xoá
+ </button>
+ </form>
+ </td>
+ </tr>
+ <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
+
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('admin.layoutAdmin'); } ?>

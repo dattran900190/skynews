@@ -1,0 +1,47 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Danh sách bài viết
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container my-5">
+ <h1>Danh sách bài viết</h1><br>
+ <div class="row">
+ <div class="col-md-4 post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg" alt="Bài viết 1">
+ <div class="card-body">
+ <h5>Bài viết 1</h5>
+ <p>Đây là mô tả ngắn gọn về bài viết đầu tiên.</p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="col-md-4 post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg" alt="Bài viết 2">
+ <div class="card-body">
+ <h5>Bài viết 2</h5>
+ <p>Mô tả bài viết thứ hai nằm ở đây. </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="col-md-4 post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg" alt="Bài viết 3">
+ <div class="card-body">
+ <h5>Bài viết 3</h5>
+ <p>Mô tả ngắn về bài viết số ba. </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

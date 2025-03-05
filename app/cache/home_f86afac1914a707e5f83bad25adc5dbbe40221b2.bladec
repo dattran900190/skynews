@@ -1,0 +1,122 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Trang chủ
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+<div class="container my-5">
+ <h1>Trang chủ</h1>
+ 
+ <br>
+ <div class="mainHome">
+ <div class="main1">
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="main2">
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="main1">
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="main1">
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ <div class="detail-post">
+ <div class="card">
+ <img src="https://giaxemercedes.vn/wp-content/uploads/2021/09/mercedes-c300-amg-2022-giaxemercedes-vn-2.jpg"
+ alt="Bài viết 1">
+ <div class="card-body">
+ <h3>Bài viết </h3>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore molestias accusantium, possimus tempore harum beatae itaque quis numquam.
+ </p>
+ <a href="detailPost" class="btn btn-primary">Đọc thêm</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ 
+
+ </div>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>

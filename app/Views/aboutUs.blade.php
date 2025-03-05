@@ -1,0 +1,247 @@
+@extends('layouts.layout')
+
+@section('title')
+    Giới thiệu
+@endsection
+
+@section('content')
+    <div class="container about-us">
+        <h3>20 năm phát triển công nghệ </h3>
+        Tròn hai thập kỷ ra đời với mục tiêu phụng sự độc giả, VnExpress đã liên tục cập nhật những công nghệ làm báo mới
+        nhất, trong đó có những thay đổi mang tính cách mạng.<br><br>
+        Lịch sử báo chí cho thấy những mốc phát triển quan trọng đều gắn với các phát minh công nghệ, tạo ra các phương tiện
+        phát hành mới. Johann Gutenberg (1400 - 1468), người đầu tiên in bằng khuôn đúc, đã tạo tiền đề cho báo in ra đời
+        vào đầu thế kỷ 17. Phát kiến về sóng radio dẫn đến sự ra đời của đài phát thanh vào những năm 1920. Ứng dụng truyền
+        hình tạo ra "báo hình" đầu tiên từ thập niên 1940. Những người sáng lập ra VnExpress đã nhận thấy Internet sẽ là một
+        phương tiện thông tin đại chúng hoàn toàn mới trong hệ thống báo chí Việt Nam.
+<br><br>
+<img src="https://i1-sohoa.vnecdn.net/2021/02/25/20-nam-VnExpress-9797-1614239658.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=qhy6TtdeN5TA9agd80oCtA" alt="">
+        <span>Ngày 26/2/2001, VnExpress lần đầu xuất hiện trên Internet. Trong hình là văn phòng đầu tiên của báo tại số 75 phố
+            Trần Hưng Đạo (Hoàn Kiếm, Hà Nội) với khoảng 20 nhân viên.
+        </span><br><br>
+        Cách đây 20 năm, ý tưởng xây dựng một tờ báo điện tử còn rất mơ hồ. Cuối năm 1997, Việt Nam mới chính thức hòa mạng
+        Internet quốc tế. Đầu năm 2000, cả nước có chưa đến 50.000 thuê bao Internet. Truyền thông thường xuyên phản ánh
+        tình trạng giá cước cao và băng thông hẹp, số lượng người dùng thấp. Nhưng cũng chính trong bối cảnh khó khăn đó,
+        những người sớm tiếp cận với Internet đã nhận thấy đây là mảnh đất tiềm năng, chưa khai phá của báo chí.
+        <br><br>
+        Ngày 26/2/2001, VnExpress.net lần đầu tiên xuất hiện trên mạng. Tất cả đều bắt đầu từ con số không, nhưng trong đó
+        có nhiều yếu tố mang tính tiên phong.
+        <br><br>
+        Tiền thân của báo chí hiện đại
+        <br><br>
+        Đặt nền móng kỹ thuật cho VnExpress là ông Trương Đình Anh, khi đó là Giám đốc của Trung tâm dịch vụ trực tuyến FPT
+        (FOX) - tiền thân của Công ty cổ phần Viễn thông FPT - người đã code những dòng đầu tiên cho website.
+        <br><br>
+        CMS - hệ thống quản trị nội dung - version 1.0 của VnExpress được tạo từ năm 2000, trong đó website được lập trình
+        bằng ngôn ngữ VBScript trên nền ASP. CMS sử dụng ngôn ngữ VB6 tương tác với ActiveX Object trên trình duyệt Internet
+        Explorer của Microsoft. Thế mạnh của ActiveX Object giúp cho CMS hoạt động như một phần mềm được cài đặt trên máy
+        tính. Các biên tập viên thực hiện thao tác soạn thảo như trên Microsoft Word và lưu offline ngay trên máy. Tất cả
+        đều mới mẻ với những nhà báo xây dựng nội dung cho VnExpress lúc bấy giờ.
+
+        <br><br>
+
+        <img src="https://i1-sohoa.vnecdn.net/2021/02/25/VnExpress-Giao-dien-doi-dau-9015-1614239659.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=ZaQez5zr62uW95KvdFuiEw" alt="">
+        Giao diện đầu tiên của VnExpress.
+        VnExpress có tính độc lập khác hẳn với báo chí truyền thống. Trước kỷ nguyên Internet, báo chí thường gắn với tính
+        định kỳ. Định nghĩa báo, tạp chí trong giáo trình khoa Báo chí Đại học Quốc Gia Hà Nội khi đó viết: "Báo, tạp chí là
+        một loại hình thông tin đại chúng thực hiện các chức năng cơ bản, như thông tin, định hướng dư luận, giải trí..., và
+        được phát hành định kỳ".
+        <br><br>
+        Tuy nhiên, hệ thống quản trị nội dung của VnExpress cho phép các bài báo được xuất bản mà không phải chờ đợi cả
+        trang báo, các trang không chờ đợi cả số báo.
+        <br><br>
+        Cách thức xuất bản của VnExpress thể hiện đặc thù phi định kỳ của báo trực tuyến. Đây cũng là lợi thế về tốc độ cập
+        nhật thông tin, cho phép độc giả tiếp cận thông tin mọi lúc, mọi nơi, mà không phải chờ đợi đến kỳ phát hành.
+        <br><br>
+        Tiếp đến, phần mềm cho phép thực hiện một loại hình mới gọi là "bài báo mở" - tức là, bài báo sau khi đã lên trang
+        vẫn tiếp tục được cập nhật. Với khả năng đó, VnExpress sau này đem đến cho độc giả các bài "Tường thuật trực tiếp"
+        và "Phỏng vấn trực tuyến" đầu tiên tại Việt Nam.
+        <br><br>
+        Một chi tiết không kém phần quan trọng là font chữ. Đây vốn là vấn đề đau đầu của các website tiếng Việt. Sau nhiều
+        lần phân tích, lựa chọn, cuối cùng VnExpress quyết định là đơn vị tiên phong sử dụng font Unicode. Sau này, Unicode
+        trở thành một trong những font phổ biến nhất Việt Nam và được quy chuẩn trong văn bản hành chính.
+        <br><br>
+        Nhiều tháng liên tục, ông Trương Đình Anh miệt mài ngồi viết chương trình đến tận khuya. Ngày 15/2/2001, phần mềm
+        biên tập mới hoàn chỉnh, nhưng vẫn phải chạy thử. Ngày 26/2, dù còn khiếm khuyết, Ban lãnh đạo quyết định "phóng"
+        VnExpress lên Internet. Đó là một ngày thầm lặng, như những ngày làm việc bình thường khác. Không quảng cáo, không
+        có lễ khai trương, diễn văn và champagne. Chỉ có một thông báo qua email cho các khách hàng sử dụng Internet của
+        FPT. Nhưng đó là một ngày trọng đại của VnExpress.
+        <br><br>
+        Sau tuần đầu, số máy tính truy cập trong một ngày đạt mức 1.000. Tuần tiếp theo, số độc giả hằng ngày đã tăng gấp
+        đôi... Sau nửa năm, VnExpress có 300.000 độc giả. Phần lớn thư bạn đọc kể rằng họ biết đến báo là nhờ bạn bè giới
+        thiệu.
+        <br><br>
+        "Khi thuyết trình để đưa Internet vào Việt Nam năm 1997, chúng tôi không hình dung hết được báo điện tử - báo trên
+        Internet sẽ phát triển thế nào. Thời kỳ đầu, các cơ quan nhà nước cũng rất thận trọng khi đưa thông tin lên mạng với
+        hình thức báo chí. Chỉ các tờ báo chính thức mới được phép đưa nội dung của báo giấy lên Internet. Nhưng hạn chế lớn
+        nhất là thông tin theo phiên bản của báo giấy thì theo kỳ, tuần, tháng, ngày chứ không tức thời", Tiến sĩ Mai Liêm
+        Trực, nguyên Thứ trưởng Bộ Bưu chính Viễn thông chia sẻ.
+        <br><br>
+        Ông Trực nhấn mạnh: "Ra mắt trên Internet ngày 26/2/2001, VnExpress là báo mạng hoàn toàn, không có bản in giấy, có
+        thể đưa tin ngay lập tức, trực tiếp lên trên phạm vi trong nước cũng như quốc tế. Điều này có tác dụng rất mạnh, tạo
+        điều kiện cho Việt Nam gắn bó với thế giới, người Việt Nam ở nước ngoài cũng phấn khởi vì đọc được thông tin rất
+        nhanh, nắm được tình hình trong nước".
+        <br><br>
+        Năm 2002, VnExpress được báo giới Việt Nam bình chọn là một trong 10 sự kiện nổi bật trong lĩnh vực công nghệ thông
+        tin, "do đã thực sự là một biểu tượng cho sự phát triển nội dung Internet ở Việt Nam".
+
+        Cuộc di cư số
+        <br><br>
+        Sau một thập kỷ phụng sự độc giả, VnExpress không chỉ phát triển về chất lượng, mà quy mô cũng mở rộng với nhiều
+        trang ngách, như Ngôi sao, Số Hoá, iOne... Nhu cầu phát triển ngày càng lớn buộc đội công nghệ phải đối mặt với một
+        hệ thống bắt đầu phình to, nặng nề. Việc phát triển các tính năng mới trở nên phức tạp hơn với nền tảng công nghệ
+        lúc bấy giờ.
+        <br><br>
+        Một ngày đầu tháng 5/2012, Thái Xuân Lãm, kỹ sư phụ trách kiến trúc, framework của toàn bộ VnExpress, nhận được
+        email thông báo về việc chuyển đổi kiến trúc của toà soạn. Gắn bó với công ty từ năm 2009, Lãm hiểu đây sẽ là "cuộc
+        di cư số" lịch sử của VnExpress.
+        <br><br>
+        "Nền tảng ActiveX Object dùng để xây dựng CMS ban đầu có hạn chế lớn là chỉ chạy được trên Internet Explorer.
+        VnExpress phải là một tòa soạn hội tụ chứ không triển khai độc lập các CMS, tốn nguồn lực để phát triển sau này",
+        Thái Xuân Lãm nói.
+        <br><br>
+        Với Lãm và đội kỹ thuật của báo ở TP HCM và Hà Nội, lần chuyển dịch này vô cùng khó, vì sau 10 năm, VnExpress đã trở
+        thành một hệ thống dữ liệu khổng lồ với nhiều liên kết phức tạp. Để chuyển sang nền tảng mới, bắt buộc phải thay đổi
+        toàn bộ, từ xây dựng kiến trúc đến ngôn ngữ lập trình và cơ sở dữ liệu.
+        <br><br>
+        Trước khi bắt đầu chuyển đổi nền tảng, thách thức đặt ra với đội kỹ thuật của VnExpress là phải đảm bảo được lượng
+        truy cập, các tác vụ trong CMS phải nhanh chóng xuất hiện trên báo để người dùng có thể xem và tương tác trực tiếp
+        trên web. Nói cách khác, cuộc chuyển đổi lần này phải diễn ra một cách "lặng lẽ" nhất, để biên tập viên của báo
+        không cảm thấy bị gián đoạn trong công tác sản xuất và độc giả không bị gián đoạn trải nghiệm.
+        <br><br>
+        "Khái niệm thời gian lúc này không còn tồn tại", người "kỹ sư trưởng" kể lại. "Đội kỹ thuật phải đảm bảo truy cập
+        của độc giả mượt mà trong 24 tiếng, không một phút chậm trễ. Nhiều lúc đang trên đường đi làm, chưa đến cơ quan,
+        nhưng hệ thống gặp trục trặc, tôi phải vào quán cà phê, mở laptop sửa lỗi cho nhanh", Lãm nhớ lại.
+        <br><br>
+        Quá trình chuyển đổi ròng rã một năm. Thời gian này Lãm và đồng đội phải làm việc cả ngày lẫn đêm. Đội kỹ thuật chia
+        làm hai, một nhóm duy trì vận hành những nền tảng cũ, chờ chuyển đổi, một nhóm phát triển những tính năng mới. Cả
+        hai phối hợp nhịp nhàng, đảm bảo mọi hoạt động của phóng viên, biên tập viên và trải nghiệm của độc giả không bị bất
+        kỳ ảnh hưởng nào.
+        <br><br>
+        Để chuyển đổi từ nền tảng cũ sang nền tảng mới, năm đó Thái Xuân Lãm phải từ TP HCM ra Hà Nội, mở code liên quan đến
+        biên tập mặt trang từ những năm ông Trương Đình Anh phát triển ra để nghiên cứu lại. "Theo đánh giá của tôi, cách
+        làm cũ quá khó và nguy hiểm. Chỉ cần một lỗi, toàn bộ trang sẽ bị treo. Tôi phải tự lên kịch bản cho phần sửa trang
+        báo là chỉ có drag/drop, người không biết code cũng có thể sắp xếp, thay đổi được mặt trang", Lãm chia sẻ.
+        <br><br>
+        Lúc này, mục bình luận của độc giả trên VnExpress đã cho phép trả lời người đọc tương tác với nhau ngay trong bài
+        viết. Khi đang chuyển đổi hệ thống, lượng bình luận đổ về quá nhiều, lúc nào cũng trong tình trạng thiếu tài nguyên
+        đáp ứng. Đội ngũ kỹ thuật buộc phải tái cấu trúc một lần nữa cho phần bình luận. Họ phải làm việc hết công suất, đảm
+        bảo mọi việc phải hoàn thành trong ba ngày. "Trước khi bắt tay vào dự án, toàn đội họp rất nhiều, lên kế hoạch chi
+        tiết cho từng giai đoạn. Vì vậy, chỉ cần một mắt xích nhỏ bị trật là có thể kéo theo toàn bộ dự án bị sai tiến độ.
+        Việc tái cấu trúc lần hai cho tính năng bình luận đã được tiến hành cấp tốc, đảm bảo nhanh và chính xác, không để bị
+        ảnh hưởng đến giai đoạn sau", Thái Xuân Lãm nói.
+        <br><br>
+        Quy trình chuyển đổi diễn ra tuần tự từng ban, bắt đầu từ trang Thể thao, Số hoá, Giải trí, Gia đình rồi Kinh doanh.
+        3h sáng ngày 15/5/2013, văn phòng của nhóm kỹ thuật VnExpress ở cả hai miền vẫn sáng đèn. Những dòng lệnh cuối cùng
+        được cả đội kiểm tra kỹ càng một lần nữa trước khi nhấn "Enter". Trang chủ VnExpress là sản phẩm sau cùng chuyển đổi
+        thành công - cột mốc đánh dấu thời điểm hoàn thiện hệ thống CMS hội tụ, kết thúc cuộc chuyển đổi lớn đầu tiên trong
+        lịch sử thành lập báo.
+        <br><br>
+        "Cuộc di cư số" đầu tiên không chỉ giải quyết bài toán về tòa soạn hội tụ, tính bản quyền trong các ứng dụng công
+        nghệ, mà còn mở rộng hệ thống khi lượng truy cập của độc giả vào báo ngày càng cao. Tính ưu việt của công nghệ mới
+        giúp nội dung trên trang được thể hiện dưới nhiều hình thức phong phú hơn, đặt nền móng cho các sản phẩm báo chí
+        hiện đại sau này của VnExpress.
+        <br><br>
+        Tiên phong
+        <br><br>
+        Năm 2014, ứng dụng di động nở rộ, "mobile first" trở thành xu hướng toàn cầu. VnExpress nhanh chóng ra mắt ứng dụng
+        đọc báo trên iOS và Android. Không chỉ mang đến những trải nghiệm mới, ứng dụng còn cá nhân hóa trải nghiệm của
+        người dùng. Tại mỗi bài viết, độc giả vừa xem video vừa đọc nội dung, điều chỉnh font chữ theo ý muốn hay vuốt sang
+        trái - phải để đọc bài tiếp theo. Chức năng bình luận cũng được cải tiến để người đọc dễ theo dõi các bình luận hay
+        và gửi ý kiến của mình đến tòa soạn.
+        <br><br>
+        Theo ông Nguyễn Văn Ngọc, người quản lý kỹ thuật bộ phận nội dung số của VnExpress, việc chuẩn bị cho kỷ nguyên
+        "mobile first" thực ra đã bắt đầu từ năm 2006 - 2007 - thời kỳ bùng nổ của các thiết bị cầm tay. Đội kỹ thuật của
+        báo đã nghiên cứu về chuẩn WAP, giảm tối đa hình ảnh, background, giảm dung lượng để giúp độc giả truy cập trên các
+        thiết bị cầm tay với tên miền m.vnexpress.net mượt mà nhất có thể.
+        <br><br>
+<img src="https://i1-sohoa.vnecdn.net/2021/02/24/Screen-Shot-2021-02-24-at-17-5-3841-2732-1614165920.png?w=0&h=0&q=100&dpr=1&fit=crop&s=U-UEcuxn2HaYFm7Qc4yKfQ" alt="">
+        VnExpress là một trong những báo điện tử đầu tiên xây dựng ứng dụng đọc báo trên cả nền tảng iOS lẫn Android.
+        Trước sự bùng nổ về dịch vụ tiện ích trên Internet, mạng truyền thông cần khả năng linh hoạt cao, tốc độ truyền dẫn
+        lớn, băng thông rộng, đa dịch vụ để đáp ứng nhu cầu trao đổi thông tin của xã hội. Trong bối cảnh đó, vấn đề lớn
+        nhất mà thế giới phải đối mặt là sự cạn kiệt không gian địa chỉ IPv4. Giao thức IPv6 ra đời như một giải pháp công
+        nghệ để duy trì hoạt động Internet ổn định lâu dài trong tương lai. IPv6 không những giải quyết được vấn đề cạn kiệt
+        địa chỉ mà còn khắc phục được hạn chế của giao thức IPv4, cũng như cung cấp thêm những thuộc tính khác.
+        <br><br>
+        Sớm nhìn thấy những hạn chế của IPv4, từ năm 2009, VnExpress đã nghiên cứu công nghệ và xin cấp phát địa chỉ IPv6 để
+        chuẩn bị cho kế hoạch triển khai, bám sát lộ trình Ban Công tác thúc đẩy phát triển IPv6 quốc gia - Trung tâm
+        Internet Việt Nam - đưa ra.
+        <br><br>
+        "Ở giai đoạn chuẩn bị, nhằm đánh giá thực trạng và tính sẵn sàng để chuyển sang IPv6, rào cản đầu tiên của chúng tôi
+        là trang bị kiến thức và đào tạo nhân lực. Vì thực tế, chưa có đơn vị nào triển khai, chưa có mô hình nào để
+        VnExpress tham khảo", ông Nguyễn Ngọc Sơn, Trưởng phòng Hạ tầng của báo lúc đó, chia sẻ.
+        <br><br>
+<img src="https://i1-sohoa.vnecdn.net/2021/02/24/ipv6-vnexpress-4163-1512727701-6400-2958-1614132864.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=S4xrDuIOkTzJ0oFGcjn21w" alt="">
+        Ông Nguyễn Văn Ngọc (bìa trái) làm việc với tổ công tác phát triển IPv6 quốc gia.
+        Khó khăn tiếp theo là chi phí đầu tư, do một số thiết bị trên hệ thống đang chạy không hỗ trợ IPv6. Đồng thời, đội
+        ngũ kỹ thuật cũng phải nâng cấp các công cụ hỗ trợ quản trị cần thiết để đáp ứng nhu cầu sử dụng cho hệ thống mới
+        trên nền IPv6, song song với hệ thống cũ trên nền IPv4.
+        <br><br>
+        Tuy vậy, thách thức lớn nhất vẫn là đảm bảo hệ thống báo và dịch vụ luôn thông suốt. "Đặc thù của VnExpress là báo
+        có lượng truy cập lớn ở Việt Nam và quốc tế, nên phương án triển khai phải đảm bảo không gây gián đoạn cho độc giả",
+        ông Sơn nói. "Vì vậy, đội ngũ kỹ thuật đã xây dựng một hệ thống mới phục vụ riêng cho IPv6, thử nghiệm nội bộ sau đó
+        mới mở rộng từng phần".
+        <br><br>
+        <img src="https://i1-sohoa.vnecdn.net/2021/02/25/20-nam-congnghe-vne-6437-1614244659.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=y9pGodzPnUxMD3gtM37qUg" alt="">
+        Khi đó, VnExpress là hệ thống báo có lượng truy cập đồng thời (CCU) rất lớn. Để đảm bảo sự ổn định với độ chịu tải
+        cao, hệ thống đòi hỏi một kiến trúc khác biệt, được kết hợp từ sự tối ưu của nhiều giải pháp. Đội kỹ thuật luôn phải
+        có các phương án dự phòng để đảm bảo không gián đoạn. Các hệ thống monitor tự động đã được ứng dụng để đảm bảo chỉ
+        số SLAs, như Application Performance Monitoring (APM), sử dụng chatbot trong quản trị và xử lý sự cố hạ tầng,
+        network...
+
+        <br><br>
+
+        <img src="https://i1-sohoa.vnecdn.net/2021/02/24/VNE-8976-1525426881-1337-1614132864.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=0lBMSXmyRgbZUFooNURIQQ" alt="">
+        Kết quả triển khai IPv6 trong giai đoạn 2016 - 2017 của VnExpress.
+        Trong giai đoạn khởi động, từ năm 2013 đến 2015, VnExpress đã triển khai chạy thử nghiệm IPv6 trên một số sản phẩm
+        nội bộ. Giai đoạn thực tế bắt đầu từ năm 2016 đến 2019 với việc chuyển đổi các trang web chính như VnExpress.net,
+        Ngoisao.net...
+        <br><br>
+        Quá trình chuyển đổi hoàn tất từ cuối năm 2017, VnExpress trở thành đơn vị nội dung số đầu tiên chuyển đổi thành
+        công IPv6, sớm hơn hai năm so với kế hoạch hành động quốc gia về IPv6 cũng như kế hoạch ban đầu gửi Ban công tác
+        thúc đẩy quốc gia.
+        <br><br>
+        Tiến vào kỷ nguyên mới
+        <br><br>
+        Năm 2017, khi vừa hoàn tất chuyển đổi sang giao thức IPv6, đội kỹ thuật của VnExpress đã áp dụng thành công tính
+        năng Recommendation (Có thể bạn quan tâm) trong hoạt động xuất bản, bước đầu ghi nhận tỷ lệ nhấp chuột (CTR) của độc
+        giả đạt từ 15 đến 20%.
+        <br><br>
+        Trong nội bộ tòa soạn, việc tự động hóa sản xuất nội dung cũng bắt đầu được triển khai. Hệ thống CMS tự đề nghị chủ
+        đề, tin liên quan sau khi biên tập viên hoàn thành bài viết. Những công nghệ mới trong lĩnh vực AI cũng đang được áp
+        dụng trong VnExpress như Natural Language Processing (NLP), Machine Learning (ML), Vision, Speech (Speech To Text,
+        Text To Speech).
+        <br><br>
+        AI và Big Data đang hỗ trợ đắc lực trong việc sản xuất tin bài của phóng viên, như đề xuất tin liên quan, lựa chọn
+        tin bài. Hệ thống hỗ trợ tự động phân loại bình luận, ứng dụng NLP giúp giảm lượng comment tồn từ 40% xuống còn 5%,
+        thời gian xử lý bình luận tăng 50% so với thao tác thủ công. Công cụ kiểm tra lỗi chính tả giúp giảm 70% thời gian
+        soát lỗi cho biên tập. Hệ thống phân tích dữ liệu video của độc giả trên các nhà mạng (ISP) giúp phát hiện và xử lý
+        lỗi nhanh và kịp thời. Giảm trung bình 80% thời gian xử lý lỗi về video.
+        <br><br>
+
+        Việc xây dựng đội ngũ kỹ thuật riêng từ những ngày đầu giúp VnExpress tự chủ về công nghệ, theo sát xu hướng làm báo
+        của thế giới. Ảnh: Lưu Quý.
+        Ông Phạm Xuân Đà, Cục trưởng Cục Công tác phía Nam, Bộ Khoa học Công nghệ đánh giá: "VnExpress đang ở trong thời đại
+        phát triển vũ bão của cuộc Cách mạng công nghiệp 4.0. Bối cảnh khoa học công nghệ đang phát triển với tốc độ cực kỳ
+        nhanh, cùng với đó, thói quen và hành vi của người sử dụng Internet và các thiết bị số ngày càng đa dạng, thông tin
+        ngày càng đa chiều, mạng xã hội phát triển như vũ bão. Do đó, đội ngũ làm báo của VnExpress cần xây dựng hạ tầng
+        công nghệ mạnh để có thể phù hợp với cách làm báo mới, tiếp nhận được các nguồn tin liên tục, đa dạng...".
+        <br><br>
+        PGS Huỳnh Quyết Thắng, Hiệu trưởng Đại học Bách Khoa Hà Nội, chia sẻ: "Là độc giả và là nhà khoa học, quản lý giáo
+        dục, tôi ấn tượng với cách đưa tin đa chiều của VnExpress. Còn dưới góc độ chuyên ngành công nghệ thông tin, tôi
+        đánh giá cao báo luôn ứng dụng các kỹ thuật mới nhất và hiệu quả của công nghệ web và xử lý ngôn ngữ (tiếng Việt)".
+        <br><br>
+        Ngày càng nhiều bài viết trên VnExpress không đơn thuần truyền tải nội dung, thông điệp, mà còn gợi mở các giác quan
+        của độc giả bằng cách kể chuyện theo lối tương tác, với sự kết hợp của nhiều loại hình công nghệ mới. Mục đích cuối
+        cùng là để phụng sự bạn đọc ngày một tốt hơn, tiến đến xây dựng một nền tảng báo chí điện tử hiện đại theo xu hướng
+        thế giới.
+        <br><br>
+        "Vì là 'người tiên phong', VnExpress có những khó khăn riêng. Khó khăn không chỉ về công nghệ, tư duy quản lý, mà
+        còn khó khăn ở cả cơ chế pháp luật để hình thành tờ báo mạng độc lập. Dù vậy, VnExpress đã rất kiên cường, kiên
+        nhẫn, nhiều khi cũng 'rất có gan' để phát triển được như hôm nay. Sự tiên phong đó đã tạo bước ngoặt để ngày nay
+        chúng ta có hàng chục, thậm chí hàng trăm tờ báo xuất bản trên nền tảng internet chính thức không cần phải dựa trên
+        báo giấy. 20 năm, VnExpress đã có những bước đi rất dài, đóng góp vào việc hội nhập quốc tế của Việt Nam", ông Mai
+        Liêm Trực nhận định.
+    </div>
+    </div>
+@endsection

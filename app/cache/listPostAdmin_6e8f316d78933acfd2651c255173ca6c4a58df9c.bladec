@@ -1,0 +1,91 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Admin
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container">
+ <div class="page-inner">
+ <h1>Quản lý bài viết</h1>
+ <div class="card card-round">
+ <div class="card-header">
+ <div class="card-head-row card-tools-still-right">
+ <div class="card-title">Danh sách bài viết</div>
+ <div class="card-tools">
+ <a href="#" class="btn btn-sm btn-success">Thêm bài viết</a>
+ </div>
+ </div>
+ </div>
+ <div class="card-body p-0">
+ <div class="table-responsive">
+ <!-- Bảng danh sách bài viết -->
+ <table class="table align-items-center mb-0">
+ <thead class="thead-light">
+ <tr>
+ <th scope="col">STT</th>
+ <th scope="col" class="text-start">Tiêu đề</th>
+ <th scope="col" class="text-center">Danh mục</th>
+ <th scope="col" class="text-center">Tác giả</th>
+ <th scope="col" class="text-center">Ngày đăng</th>
+ <th scope="col" class="text-center">Trạng thái</th>
+ <th scope="col" class="text-end">Thao tác</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th scope="row">1</th>
+ <td class="text-start">Bóng đá Việt Nam: Những bước tiến mới</td>
+ <td class="text-center">Thể thao</td>
+ <td class="text-center">Nguyễn Văn A</td>
+ <td class="text-center">07/02/2025</td>
+ <td class="text-center">
+ <span class="badge badge-success">Xuất bản</span>
+ </td>
+ <td class="text-end">
+ <a href="detailPostAdmin" class="btn btn-sm btn-primary">Xem</a>
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">2</th>
+ <td class="text-start">Cập nhật tình hình thời sự trong nước</td>
+ <td class="text-center">Thời sự</td>
+ <td class="text-center">Trần Thị B</td>
+ <td class="text-center">06/02/2025</td>
+ <td class="text-center">
+ <span class="badge badge-warning">Nháp</span>
+ </td>
+ <td class="text-end">
+ <a href="detailPostAdmin" class="btn btn-sm btn-primary">Xem</a>
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">3</th>
+ <td class="text-start">Những sự kiện thể thao nổi bật 2025</td>
+ <td class="text-center">Thể thao</td>
+ <td class="text-center">Lê Minh C</td>
+ <td class="text-center">05/02/2025</td>
+ <td class="text-center">
+ <span class="badge badge-success">Xuất bản</span>
+ </td>
+ <td class="text-end">
+ <a href="detailPostAdmin" class="btn btn-sm btn-primary">Xem</a>
+ <a href="#" class="btn btn-sm btn-info">Sửa</a>
+ <a href="#" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa?');">Xóa</a>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>  
+ </div>
+ </div>
+ 
+ </div>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layoutAdmin'); } ?>

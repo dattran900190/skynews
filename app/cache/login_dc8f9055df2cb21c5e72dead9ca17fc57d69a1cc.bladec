@@ -1,0 +1,53 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('title'); ?>
+ Đăng nhập
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+ <div class="container form-login" id="container">
+ <div class="form-container sign-in-container">
+ <form action="#">
+ <h1>Đăng Nhập</h1>
+ <div class="social-container">
+ <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+ <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+ <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+ </div>
+ <span>hoặc sử dụng tài khoản của bạn</span>
+ <input type="email" placeholder="Email" />
+ <input type="password" placeholder="Mật khẩu" />
+ <a href="#">Quên mật khẩu của bạn?</a>
+ <button>Đăng Nhập</button>
+ </form>
+ </div>
+ <div class="overlay-container">
+ <div class="overlay">
+ <div class="overlay-panel overlay-right">
+ <h1>Chào Bạn!</h1>
+ <p>Nhập chi tiết cá nhân của bạn và bắt đầu hành trình với chúng tôi</p>
+ <?php /* <button class="ghost" id="signUp">Sign Up</button> */ ?>
+ <button class="ghost">
+ <a href="register" style="color: #fff">Đăng Ký</a>
+ </button>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ <?php /* <script>
+ const signUpButton = document.getElementById('signUp');
+ const signInButton = document.getElementById('signIn');
+ const container = document.getElementById('container');
+
+ signUpButton.addEventListener('click', () => {
+ container.classList.add("right-panel-active");
+ });
+
+ signInButton.addEventListener('click', () => {
+ container.classList.remove("right-panel-active");
+ });
+ </script> */ ?>
+<?php $this->stopSection(); ?>
+
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>
