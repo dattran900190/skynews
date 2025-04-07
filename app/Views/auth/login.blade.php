@@ -33,7 +33,7 @@
                     <p>Nhập chi tiết cá nhân của bạn và bắt đầu hành trình với chúng tôi</p>
                     {{-- <button class="ghost" id="signUp">Sign Up</button> --}}
                     <button class="ghost">
-                        <a href="register" style="color: #fff">Đăng Ký</a>
+                        <a href="{{ APP_URL . 'register' }}" style="color: #fff">Đăng Ký</a>
                     </button>
                 </div>
             </div>

@@ -25,7 +25,7 @@
             <ul class="menu-left">
                 <li><a href="{{ APP_URL }}">Trang chủ</a></li>
                 <li class="dropdown">
-                    <a href="{{ APP_URL . 'listPost'}}">Danh mục <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="{{ APP_URL . 'listPost' }}">Danh mục <i class="fa-solid fa-angle-down"></i></a>
                     {{-- <ul class="dropdown-menu">
                         <li><a href="#">Sub Menu 1</a></li>
                         <li><a href="#">Sub Menu 2</a></li>
@@ -52,11 +52,11 @@
                             <li><a href="{{ APP_URL . 'listPost/' . $category->id }}">{{ $category->name }}</a></li>
                         @endforeach
                     </ul>
-                    
-                    
+
+
                 </li>
-                <li><a href="{{ APP_URL . 'contact'}}">Liên hệ</a></li>
-                <li><a href="{{ APP_URL . 'aboutUs'}}">Giới thiệu</a></li>
+                <li><a href="{{ APP_URL . 'contact' }}">Liên hệ</a></li>
+                <li><a href="{{ APP_URL . 'aboutUs' }}">Giới thiệu</a></li>
             </ul>
 
             <ul class="menu-right">
@@ -65,7 +65,20 @@
                         <input type="text" placeholder="Search">
                     </div>
                 </li>
-                <li><a href="login"><i class="fa-solid fa-circle-user"></i> Đăng nhập</a></li>
+
+                @if (isset($_SESSION['user']))
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-circle-user"></i> {{ $_SESSION['user']->username }}
+                        </a>
+                    <br>
+                        <a href="{{ APP_URL . 'logout' }}" class="text-white">Đăng xuất 
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            </a>
+                    </li>
+                @else
+                    <li><a href="login"><i class="fa-solid fa-circle-user"></i> Đăng nhập</a></li>
+                @endif
             </ul>
         </div>
     </nav>
@@ -116,7 +129,8 @@
                 <h3>Bài viết</h3>
                 <div class="post-footer">
                     <div class="main-post-footer">
-                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg" alt="">
+                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg"
+                            alt="">
                         <div class="detail-post-footer">
                             <div class="content-post-footer">
                                 <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
@@ -128,7 +142,8 @@
                     </div>
                     <hr>
                     <div class="main-post-footer">
-                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg" alt="">
+                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg"
+                            alt="">
                         <div class="detail-post-footer">
                             <div class="content-post-footer">
                                 <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>
@@ -140,7 +155,8 @@
                     </div>
                     <hr>
                     <div class="main-post-footer">
-                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg" alt="">
+                        <img src="https://smartmag.theme-sphere.com/citybuzz/wp-content/uploads/sites/20/2020/01/Depositphotos_245296172_xl-2015-1-1024x686.jpg"
+                            alt="">
                         <div class="detail-post-footer">
                             <div class="content-post-footer">
                                 <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>

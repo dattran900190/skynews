@@ -34,7 +34,7 @@
  <p>Nhập chi tiết cá nhân của bạn và bắt đầu hành trình với chúng tôi</p>
  <?php /* <button class="ghost" id="signUp">Sign Up</button> */ ?>
  <button class="ghost">
- <a href="<?php echo \htmlentities(APP_URL . 'register'??'', ENT_QUOTES, 'UTF-8', false); ?>" style="color: #fff">Đăng Ký</a>
+ <a href="register" style="color: #fff">Đăng Ký</a>
  </button>
  </div>
  </div>
