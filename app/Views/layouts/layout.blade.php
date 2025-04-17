@@ -62,7 +62,10 @@
             <ul class="menu-right">
                 <li>
                     <div class="search-bar">
-                        <input type="text" placeholder="Search">
+                        <form action="{{ APP_URL . '/' }}" method="GET">
+                            <input type="text" name="search" placeholder="Tìm kiếm ">
+                            {{-- <button class="btn btn-primary" type="submit">Tìm</button> --}}
+                        </form>
                     </div>
                 </li>
 
@@ -71,10 +74,10 @@
                         <a href="">
                             <i class="fa-solid fa-circle-user"></i> {{ $_SESSION['user']->username }}
                         </a>
-                    <br>
-                        <a href="{{ APP_URL . 'logout' }}" class="text-white">Đăng xuất 
+                        <br>
+                        <a href="{{ APP_URL . 'logout' }}" class="text-white">Đăng xuất
                             <i class="fa-solid fa-right-from-bracket"></i>
-                            </a>
+                        </a>
                     </li>
                 @else
                     <li><a href="login"><i class="fa-solid fa-circle-user"></i> Đăng nhập</a></li>

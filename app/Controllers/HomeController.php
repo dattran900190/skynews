@@ -7,17 +7,60 @@ use App\Models\Post;
 
 class HomeController
 {
+    // public function index()
+    // {
+    //     $categories = Category::all();
+    //     $keyword = $_GET['keyword'] ?? '';
+
+    //     if ($keyword) {
+    //         $posts = Post::select(['posts.*', 'name as cagetory_name'])
+    //         ->join('categories', 'category_id', 'id')
+    //         ->where('title', 'LIKE', "%$keyword%")
+    //         ->get();
+    //     } else {
+    //         $posts = Post::select(['posts.*', 'name as cagetory_name'])
+    //         ->join('categories', 'category_id', 'id')
+    //         ->orderBy('id', 'DESC')
+    //         ->get();
+    //     }
+
+    //     return view('home', compact('posts', 'categories'));
+    // }
+
+    // use Illuminate\Http\Request;
+
     public function index()
     {
+        $search = $_GET['search'] ?? '';
         $categories = Category::all();
-        $posts = Post::select(['posts.*', 'name as cagetory_name'])
+
+        // dd($posts);
+
+        if ($search) {
+            $posts = Post::select(['posts.*', 'categories.name as category_name'])
+            ->join('categories', 'category_id', 'id')
+            ->where('posts.title', 'LIKE', '%' . $search . '%')
+            ->orderBy('id', 'DESC')
+            ->get();
+
+            $postsSidebar = Post::select(['posts.*', 'categories.name as cagetory_name'])
+                ->join('categories', 'category_id', 'id')
+                ->orderBy('id', 'DESC')
+                ->get();
+
+            return view('search', compact('posts', 'categories', 'search', 'postsSidebar'));
+        } else {
+
+            $posts = Post::select(['posts.*', 'name as cagetory_name'])
             ->join('categories', 'category_id', 'id')
             ->orderBy('id', 'DESC')
             ->get();
-        // dd($cagetories);
-
-        return view('home', compact('posts', 'categories'));
+            return view('home', compact('posts', 'categories'));
+        }
     }
+
+
+
     public function listPost()
     {
         $categories = Category::all();

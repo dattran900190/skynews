@@ -32,7 +32,7 @@ class AuthController
 
         if (!$user || !password_verify($data['password'], $user->password)) {
             $errors['message'] = "Lỗi username hoặc password không chính xác";
-        } elseif ($user->role == 'user' && $user->status != 1) {
+        } elseif ($user->status != 1) {
             $errors['message'] = "Tài khoản của bạn bị cấm";
         } else {
             // Đăng nhập thành công
